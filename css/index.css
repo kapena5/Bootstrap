@@ -85,12 +85,17 @@ p {
 .cardContainer {
   text-align: center;
   padding: 20px;
+  border-style: none;
 }
 .card-img-top {
   height: 400px;
   width: inherit;
   object-fit: cover;
   object-position: 100% 0;
+  
+}
+.card-body {
+  background-color: #e6e9ee;
 }
 .valueProp {
   margin-top: 15px;
