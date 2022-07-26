@@ -39,6 +39,14 @@ p {
 .navCTA {
   font-size: 15px;
 }
+.btn-primary {
+  background-color: #1ea6a3;
+  border-color: #1ea6a3;
+}
+.btn-primary:hover {
+  background-color: #118583;
+  border-color: #118583;
+}
 .navbar-light .navbar-toggler-icon {
   filter: invert(1);
 }
@@ -68,6 +76,12 @@ p {
 .showsNear {
   padding: 0px 30px 30px 30px;
 }
+.card {
+  transition: transform .3s; /* Animation */
+}
+.card:hover {
+  transform: scale(1.1);
+}
 .cardContainer {
   text-align: center;
 }
@@ -76,7 +90,7 @@ p {
   margin-bottom: 15px;
 }
 .sideAccent {
-  background: #007bff;
+  background: #fc635f;
   width: 15px;
 }
 .imageContainer {
