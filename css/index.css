@@ -85,6 +85,9 @@ p {
 .cardContainer {
   text-align: center;
 }
+.card-img-top {
+  height: 400px;
+}
 .valueProp {
   margin-top: 15px;
   margin-bottom: 15px;
