@@ -87,10 +87,16 @@ p {
 }
 .card-img-top {
   height: 400px;
+  width: inherit;
+  object-fit: cover;
+  object-position: 100% 0;
 }
 .valueProp {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+.wakanda-trailer {
+  margin: auto;
 }
 .sideAccent {
   background: #fc635f;
