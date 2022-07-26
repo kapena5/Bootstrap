@@ -84,6 +84,7 @@ p {
 }
 .cardContainer {
   text-align: center;
+  padding: 20px;
 }
 .card-img-top {
   height: 400px;
